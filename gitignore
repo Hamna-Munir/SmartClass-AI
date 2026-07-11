@@ -1,0 +1,22 @@
+# Virtual environment — never commit, huge & platform-specific
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets — NEVER commit these. Set them in Streamlit Cloud's
+# "Secrets" panel instead when you deploy.
+.env
+.streamlit/secrets.toml
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Streamlit local runtime files (if any)
+.streamlit/config.toml.bak
